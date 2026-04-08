@@ -1,154 +1,108 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Proyecto Universitario Misionero</title>
+  <meta charset="UTF-8">
+  <title>PUM - Proyecto Universitario Misionero</title>
 
-<style>
-body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-    background: #f5f5f5;
-}
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #f4f1ee;
+      text-align: center;
+    }
 
-header {
-    background: linear-gradient(90deg, #0a3d91, #ff7a00);
-    color: white;
-    text-align: center;
-    padding: 30px 15px;
-}
+    header {
+      background-color: #6b4f3b;
+      color: white;
+      padding: 30px 20px;
+    }
 
-header img {
-    width: 140px;
-    border-radius: 50%;
-    margin-bottom: 10px;
-    background: white;
-    padding: 5px;
-}
+    img {
+      width: 160px;
+      border-radius: 50%;
+      margin-top: 20px;
+      border: 4px solid white;
+      box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    }
 
-section {
-    background: white;
-    margin: 15px;
-    padding: 20px;
-    border-radius: 10px;
-    max-width: 900px;
-    margin-left: auto;
-    margin-right: auto;
-}
+    h1 {
+      margin-bottom: 5px;
+    }
 
-h2 {
-    color: #0a3d91;
-}
+    .seccion {
+      padding: 30px 20px;
+    }
 
-.btn {
-    display: block;
-    text-align: center;
-    background: #ff7a00;
-    color: white;
-    padding: 15px;
-    text-decoration: none;
-    border-radius: 8px;
-    margin-top: 15px;
-    font-size: 18px;
-}
+    .boton {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 12px 25px;
+      background-color: #c0392b;
+      color: white;
+      text-decoration: none;
+      border-radius: 10px;
+      font-weight: bold;
+    }
 
-.frase {
-    font-style: italic;
-    text-align: center;
-    margin-top: 10px;
-}
+    .tarjeta {
+      background-color: white;
+      margin: 15px auto;
+      padding: 20px;
+      max-width: 300px;
+      border-radius: 15px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
 
-.galeria {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-    gap: 10px;
-}
-
-.galeria img {
-    width: 100%;
-    border-radius: 8px;
-}
-
-footer {
-    text-align: center;
-    padding: 15px;
-    font-size: 14px;
-}
-</style>
-
+    footer {
+      background-color: #6b4f3b;
+      color: white;
+      padding: 15px;
+      margin-top: 30px;
+    }
+  </style>
 </head>
 
 <body>
 
 <header>
-    <img src="logo.png" alt="Logo PUM">
-    <h1>Proyecto Universitario Misionero</h1>
-    <p>Misión y Oratorio estilo Salesiano</p>
+  <h1>Proyecto Universitario Misionero</h1>
+  <p>PUM</p>
 </header>
 
-<section>
-    <h2>¿Quiénes somos?</h2>
-    <p>
-        Somos jóvenes estudiantes y/o trabajadores que realizamos misión y oratorio
-        al estilo de Don Bosco, acompañando a niños, jóvenes y familias con alegría y fe.
-    </p>
+<img src="logo.png" alt="Logo del grupo">
 
-    <p class="frase">
-        “Basta que sean jóvenes para que los ame”
-    </p>
-</section>
+<div class="seccion">
+  <p>Te esperamos este sábado a las 15:30 hs frente al Santuario del Divino Niño Jesús. Vení a compartir, servir y vivir la misión con nosotros.</p>
 
-<section>
-    <h2>¿Dónde estamos?</h2>
-    <p>
-        Actualmente misionamos en el <strong>Barrio Lote 110</strong> de la ciudad de Formosa.
-    </p>
-</section>
+  <a class="boton" href="https://www.instagram.com/proyectouniversitariomisionero" target="_blank">
+    Seguinos en Instagram
+  </a>
+</div>
 
-<section>
-    <h2>¿Cuándo nos encontramos?</h2>
-    <p>
-        📅 Sábados<br>
-        ⏰ 15:30 hs<br>
-        📍 Frente al Santuario Divino Niño Jesús
-    </p>
-</section>
+<div class="seccion">
+  <h2>¿Qué hacemos?</h2>
 
-<section>
-    <h2>Nuestra misión</h2>
-    <p>
-        Nuestra misión se realiza durante tres años consecutivos en el mismo lugar,
-        especialmente en vacaciones de invierno y verano.
-    </p>
+  <div class="tarjeta">
+    <p>Visitamos comunidades y acompañamos a quienes más lo necesitan.</p>
+  </div>
 
-    <p>
-        Actualmente, nuestra misión larga se está llevando a cabo en <strong>Punta Guía</strong>.
-    </p>
-</section>
+  <div class="tarjeta">
+    <p>Compartimos momentos de fe, oración y servicio.</p>
+  </div>
 
-<section>
-    <h2>Galería</h2>
-    <div class="galeria">
-        <img src="foto1.jpg">
-        <img src="foto2.jpg">
-    </div>
-</section>
+  <div class="tarjeta">
+    <p>Construimos comunidad desde lo simple y lo cotidiano.</p>
+  </div>
+</div>
 
-<section>
-    <h2>Seguinos y sumate</h2>
-    <p>
-        Si querés conocer más de lo que hacemos o formar parte,
-        te invitamos a seguirnos en Instagram.
-    </p>
-
-    <a class="btn" href="https://www.instagram.com/proyectouniversitariomisionero?igsh=aHUwa2E4M21sbjBk" target="_blank">
-        Ver Instagram
-    </a>
-</section>
+<div class="seccion">
+  <h2>Frase del Evangelio</h2>
+  <p><em>"Vayan y hagan discípulos a todas las naciones"</em></p>
+</div>
 
 <footer>
-    <p>Hecho con 💙🧡 para la misión</p>
+  <p>Proyecto Universitario Misionero - PUM</p>
 </footer>
 
 </body>
